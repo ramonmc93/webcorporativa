@@ -1,0 +1,21 @@
+:root {
+
+    /* Colores success */
+    --color-suc-a: #ED1D8F;  
+    --color-suc-b: #FB39A3;  
+    --color-suc-c: #FE6FBD;  
+    --color-suc-d: #FCA1D3;  
+
+    /* Colores warning */
+    --color-wan-a: #FF6D00;  
+    --color-wan-b: #FF9100;  
+    --color-wan-c: #FFAB40;  
+    --color-wan-d: #FFD180;  
+
+    /* Colores danger */
+    --color-dag-a: #E2123C;  
+    --color-dag-b: #F5375E;  
+    --color-dag-c: #F95274;  
+    --color-dag-d: #FF7994;  
+
+}

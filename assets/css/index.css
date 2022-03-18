@@ -1,0 +1,178 @@
+/* Menú */
+ul {
+    height: 50px;
+    display: flex; 
+    text-align: center;   
+    float: right;
+    font-size: 17px;
+}
+
+li {
+    width: 100px;
+    margin-right: 25px;
+}
+
+a {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+}
+
+a:hover {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #fff;
+}
+
+/* header */
+header {
+    background-color: var(--color-suc-a);
+}
+
+svg {
+    width: 100%;
+}
+
+.curva svg {
+    position: absolute;
+    top: 28px;
+    z-index: -1;
+}
+
+main {
+    margin-top: 100px;
+}
+
+main div {
+    margin: 0px auto;
+}
+
+.contenedorLogo img {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.tituloServicio {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.contactar {
+    display: flex;
+    justify-content: center;
+}
+
+.contactar button, .fondoBoton > div {
+    width: 150px;
+    height: 52px;
+    background: rgb(252,161,211);
+    background: linear-gradient(130deg, rgba(252,161,211,1) 0%, rgba(252,161,211,1) 46%, rgba(237,29,143,1) 100%); 
+    border: none;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.fondoBoton {
+    display: flex;
+}
+
+.fondoBoton > div {
+    width: 0px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.contactar button {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 18px;
+    background: #FE6FBD;
+    padding: 15px;
+}
+
+.lineadeparadora {
+    display: flex;
+    justify-content: center;
+}
+
+.lineadeparadora svg {
+    width: 80%;
+}
+
+.contenedorTituloSeccion {
+	position: relative;
+	text-align: center;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+.contenedorTituloSeccion h1 {
+    font-family: "Oswald Light";
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.contenedorTituloSeccion p {
+    width: 80%;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+
+/* Servicios */
+.contenedorServicio {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedorServicio div {
+    flex: 1;
+    margin-right: 3px;
+}
+
+.contenedorServicio p, .contenedorTituloSeccion p {
+    font-family: Oswald Light;
+}
+
+.contenedorServicio div:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ED1D8F;
+    flex: none;
+    background-color: #fff;
+}
+
+.contenedorLineaTiempo {
+    position: relative;
+}
+
+.contenedorServicios div {
+    margin-bottom: 150px;
+}
+
+.contenedorServicios::before {
+	width: 2px;
+	content: "";
+	background-color: #FE6FBD;
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-left: -1.5px;
+    left: 50%;
+    z-index: -1;
+}
+
+.contenedorImagenLineaTiempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorImagenLineaTiempo img {
+    width: 140px;
+}

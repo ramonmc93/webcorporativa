@@ -135,7 +135,7 @@ main div {
 }
 
 .contenedorServicio p, .contenedorTituloSeccion p {
-    font-family: Oswald Light;
+    font-family: "Oswald Light";
 }
 
 .contenedorServicio div:nth-child(2) {

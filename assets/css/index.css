@@ -42,7 +42,7 @@ main {
     margin-top: 100px;
 }
 
-main div {
+main .contenedorTituloSeccion {
     margin: 0px auto;
 }
 
@@ -127,6 +127,7 @@ main div {
     width: 80%;
     display: flex;
     align-items: center;
+    margin: 0px auto;
 }
 
 .contenedorServicio div {
@@ -164,15 +165,66 @@ main div {
 	bottom: 0;
 	margin-left: -1.5px;
     left: 50%;
-    z-index: -1;
+    z-index: 1;
 }
 
 .contenedorImagenLineaTiempo {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 .contenedorImagenLineaTiempo img {
     width: 140px;
+}
+
+/* Testimonios */
+
+.contenedorClientes > div {
+    width: 350px;
+}
+
+.contenedorImagenTestimonio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(254,111,189);
+    background: linear-gradient(185deg, rgba(254,111,189,1) 9%, rgba(255,182,85,1) 100%);
+}
+
+.contenedorImagenTestimonio img {
+    width: 250px; 
+}
+
+.contenedorImagenTestimonio span {
+	position: absolute;
+    display: block;
+    left: 22px;
+    right: 22px;
+    top: 185px;
+    background: #FF9100;
+    color: #fff;
+}
+
+.contenedorTestimonioCliente {
+    width: 250px;
+    padding: 10px;
+    background-color: #FB39A3;
+}
+
+.contenedorTestimonioCliente p {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contenedorTestimonioCliente span {
+    display: block;
+    text-align: justify;
+    margin-top: 20px;
+    height: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    color: #fff;
 }

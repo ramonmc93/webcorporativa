@@ -335,3 +335,48 @@ footer {
     font-size: 17px;
     padding: 5px;
 }
+
+
+/* Media querys */
+@media (max-width:412px) {
+
+    .menu {
+        width: 50%;
+    }
+
+    .menuPrincipal {
+        width: inherit;
+        display: block;
+        height: auto;
+        float: left;
+    }
+
+    /* Clientes */
+    .contenedorClientes  {
+        height: auto;
+        max-height: 100%;
+    }
+    
+    .contenedorHistoriasClientes-active {
+        display: block!important;
+    }
+
+    .contenedorImagenTestimonio div span {
+        display: none;
+    }
+
+    .contenedorTituloSeccion:nth-child(3) {
+        height: 832px;
+        max-height: 832px;
+    }
+
+    .contenedorTituloSeccion h1 {
+        font-size: 33px;
+        top: 129px;
+    }
+
+    #frmContactar {
+        width: auto;
+    }
+    
+}

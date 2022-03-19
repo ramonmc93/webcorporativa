@@ -274,71 +274,73 @@
             </div>
         </div>
 
-        <div id="contacto" class="contenedorTituloSeccion mt150">
-            <h1>CONTACTAME:</h1>
-            <div class="lineadeparadora">
-                <svg 
-                width="3264" 
-                height="321" 
-                viewBox="0 0 3264 321" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg">
-                    <path 
-                    d="M0 0H3264V197.687C3264 197.687 2691.8 -79.7667 1632 197.687C572.195 475.141 0 197.687 0 197.687V0Z" 
-                    fill="#FF6D00"/>
-                </svg>
+        <div class="container">
+            <div id="contacto" class="contenedorTituloSeccion mt150">
+                <h1>CONTACTAME:</h1>
+                <div class="lineadeparadora">
+                    <svg 
+                    width="3264" 
+                    height="321" 
+                    viewBox="0 0 3264 321" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg">
+                        <path 
+                        d="M0 0H3264V197.687C3264 197.687 2691.8 -79.7667 1632 197.687C572.195 475.141 0 197.687 0 197.687V0Z" 
+                        fill="#FF6D00"/>
+                    </svg>
+                </div>
+                <form id="frmContactar">
+                    <div class="row form-group">
+                        <div class="col-12 col-md-4">
+                            <label for="nombre">Nombre:</label>
+                            <input 
+                            type="text" 
+                            class="form-control"
+                            name="nombre">
+                            <span class="campoObligatorio">Este campo es obligatorio</span>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <label for="apellidos">Apellidos:</label>
+                            <input 
+                            type="text" 
+                            class="form-control"
+                            name="apellidos">
+                            <span class="campoObligatorio">Este campo es obligatorio</span>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <label for="telCel">Tel. cel.:</label>
+                            <input 
+                            type="text" 
+                            class="form-control"
+                            name="telCel">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-12 col-md-4">
+                            <label for="email">Email:</label>
+                            <input 
+                            type="email" 
+                            class="form-control"
+                            name="email">
+                            <span class="campoObligatorio">Este campo es obligatorio</span>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea 
+                            name="mensaje" 
+                            id="mensaje"
+                            class="form-control"
+                            rows="10"></textarea>
+                            <span class="campoObligatorio">Este campo es obligatorio</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button 
+                        type="button" 
+                        class="btn btn-primary btnEnviarMensaje">Enviar</button>
+                    </div>
+                </form>
             </div>
-            <form id="frmContactar">
-                <div class="row form-group">
-                    <div class="col-12 col-md-4">
-                        <label for="nombre">Nombre:</label>
-                        <input 
-                        type="text" 
-                        class="form-control"
-                        name="nombre">
-                        <span class="campoObligatorio">Este campo es obligatorio</span>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <label for="apellidos">Apellidos:</label>
-                        <input 
-                        type="text" 
-                        class="form-control"
-                        name="apellidos">
-                        <span class="campoObligatorio">Este campo es obligatorio</span>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <label for="telCel">Tel. cel.:</label>
-                        <input 
-                        type="text" 
-                        class="form-control"
-                        name="telCel">
-                    </div>
-                </div>
-                <div class="row form-group">
-                    <div class="col-12 col-md-4">
-                        <label for="email">Email:</label>
-                        <input 
-                        type="email" 
-                        class="form-control"
-                        name="email">
-                        <span class="campoObligatorio">Este campo es obligatorio</span>
-                    </div>
-                    <div class="col-12 col-md-8">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea 
-                        name="mensaje" 
-                        id="mensaje"
-                        class="form-control"
-                        rows="10"></textarea>
-                        <span class="campoObligatorio">Este campo es obligatorio</span>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center mt-5">
-                    <button 
-                    type="button" 
-                    class="btn btn-primary btnEnviarMensaje">Enviar</button>
-                </div>
-            </form>
         </div>
 
     </main>

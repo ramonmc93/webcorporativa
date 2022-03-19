@@ -25,7 +25,7 @@ a {
     padding: 10px;
 }
 
-a:hover {
+li:hover, .item-activo {
     padding-bottom: 15px;
     border-bottom: 3px solid #fff;
 }
@@ -116,11 +116,11 @@ main .contenedorTituloSeccion {
 
 .contenedorTituloSeccion h1 {
     font-family: "Oswald Light";
-    font-size: 50px;
+    font-size: 43px;
     position: absolute;
     left: 0;
     right: 0;
-    top: 70px;
+    top: 76px;
 }
 
 .contenedorTituloSeccion p {

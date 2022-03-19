@@ -26,6 +26,12 @@ window.addEventListener("load", function() {
     
     });
 
-    console.log(1);
+
+    // --- Menú
+    $(document).on("click", ".menuPrincipal li", function(){
+        $(".menuPrincipal li").removeClass("item-activo");
+        let itemMenu = $(this)[0];
+        itemMenu.className = "item-activo";
+    });
 
 });

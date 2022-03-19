@@ -136,6 +136,7 @@ main .contenedorTituloSeccion {
     display: flex;
     align-items: center;
     margin: 0px auto;
+    margin-bottom: 150px;
 }
 
 .contenedorServicio div {
@@ -349,6 +350,35 @@ footer {
         display: block;
         height: auto;
         float: left;
+    }
+
+    /* Servicios */ 
+
+    .servicio {
+        min-width: 100%;
+        margin-bottom: 0!important;
+        margin-top: 15px;
+    }
+
+    .contenedorServicio {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenedorServicio:nth-child(odd) .servicio {
+        order: 2;
+    }
+
+    .separador {
+        display: none;
+    }
+
+    .contenedorImagenLineaTiempo {
+        margin: 0px auto!important;
+    }
+
+    .contenedorServicios::before {
+        display: none;
     }
 
     /* Clientes */

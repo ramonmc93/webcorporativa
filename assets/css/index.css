@@ -181,7 +181,7 @@ main .contenedorTituloSeccion {
 
 /* Testimonios */
 
-.contenedorClientes > div {
+.contenedorHistoriasClientes > div {
     width: 350px;
 }
 
@@ -229,23 +229,23 @@ main .contenedorTituloSeccion {
     color: #fff;
 }
 
-.botonesCambioHistoriaUsuario {
+.botonesCambioHistoriaCliente {
     position: absolute;
     bottom: 5px;
 }
 
-.botonesCambioHistoriaUsuario button {
+.botonesCambioHistoriaCliente button {
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
     border-style: none;
 }
 
-.botonesCambioHistoriaUsuario button:hover {
+.botonesCambioHistoriaCliente button:hover {
     background-color: #fff;
 }
 
-.botonesCambioHistoriaUsuario button:active {
+.botonesCambioHistoriaCliente button:active {
     background: rgb(254,111,189);
     background: linear-gradient(185deg, rgba(254,111,189,1) 9%, rgba(255,182,85,1) 100%);   
 }

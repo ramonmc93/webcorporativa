@@ -181,7 +181,22 @@ main .contenedorTituloSeccion {
 
 /* Testimonios */
 
-.contenedorHistoriasClientes > div {
+.contenedorHistoriasClientes {
+    transform-origin: 0 0;
+    transform: translateX(50px);
+    opacity: 0;
+
+    transition-property: transform, opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.contenedorHistoriasClientes-active {
+    transform: translateX(0);
+    opacity: 100%;
+}
+
+.contenedorHistoriasClientes-active > div {
     width: 350px;
 }
 

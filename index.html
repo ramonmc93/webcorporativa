@@ -15,25 +15,27 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li>
-                <a href="#">Inicio</a>
-            </li>
-            <li>
-                <a href="#">¿Quién soy?</a>
-            </li>
-            <li>
-                <a href="#">Mis servicio</a>
-            </li>
-            <li>
-                <a href="#">Mis clientes</a>
-            </li>
-            <li>
-                <a href="#">Contacto</a>
-            </li>
-        </ul>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">¿Quién soy?</a>
+                </li>
+                <li>
+                    <a href="#">Mis servicio</a>
+                </li>
+                <li>
+                    <a href="#">Mis clientes</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
         <div class="contenedorLogo">
-            <img src="assets/img/logo_vertical_solo.svg" alt="Logo">
+            <img src="assets/img/logo/logo_vertical_solo.svg" alt="Logo solo asesoriafinacieradvc">
         </div>
         <div class="tituloServicio">
             <h1>
@@ -192,7 +194,7 @@
             </div>
         </div>
         
-        <div class="contenedorTituloSeccion">
+        <div class="contenedorTituloSeccion mt150">
             <h1>ALGUNOS DE MIS CLIENTES SATISFECHOS</h1>
             <div class="lineadeparadora">
                 <svg 
@@ -215,7 +217,7 @@
                         </div>
                     </div>
                     <div class="contenedorTestimonioCliente">
-                        <p>Mis clientes dicen:</p>
+                        <p>Mario Rodolfo, dice:</p>
                         <span>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Provident nisi nemo error numquam similique omnis voluptas 
@@ -228,11 +230,11 @@
                     <div class="contenedorImagenTestimonio">
                         <div class="p-r">
                             <img src="assets/img/bitcoin.png" alt="mujer_y_hombre_palmas">
-                            <span>Ing. Mario Rodolfo Gonzales</span>
+                            <span>Ing. Lorena Peréz Fernandez</span>
                         </div>
                     </div>
                     <div class="contenedorTestimonioCliente">
-                        <p>Mis clientes dicen:</p>
+                        <p>Lorena Peréz, dice:</p>
                         <span>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Provident nisi nemo error numquam similique omnis voluptas 
@@ -245,11 +247,11 @@
                     <div class="contenedorImagenTestimonio">
                         <div class="p-r">
                             <img src="assets/img/pago_tienda_tarjeta.png" alt="mujer_y_hombre_palmas">
-                            <span>Ing. Mario Rodolfo Gonzales</span>
+                            <span>Lic. Susana Dorantez Cruz</span>
                         </div>
                     </div>
                     <div class="contenedorTestimonioCliente">
-                        <p>Mis clientes dicen:</p>
+                        <p>Susana Dorantez, dice:</p>
                         <span>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Provident nisi nemo error numquam similique omnis voluptas 
@@ -272,7 +274,105 @@
             </div>
         </div>
 
+        <div class="contenedorTituloSeccion mt150">
+            <h1>CONTACTAME:</h1>
+            <div class="lineadeparadora">
+                <svg 
+                width="3264" 
+                height="321" 
+                viewBox="0 0 3264 321" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg">
+                    <path 
+                    d="M0 0H3264V197.687C3264 197.687 2691.8 -79.7667 1632 197.687C572.195 475.141 0 197.687 0 197.687V0Z" 
+                    fill="#FF6D00"/>
+                </svg>
+            </div>
+            <form id="frmContactar">
+                <div class="row form-group">
+                    <div class="col-12 col-md-4">
+                        <label for="nombre">Nombre:</label>
+                        <input 
+                        type="text" 
+                        class="form-control"
+                        name="nombre">
+                        <span class="campoObligatorio">Este campo es obligatorio</span>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="apellidos">Apellidos:</label>
+                        <input 
+                        type="text" 
+                        class="form-control"
+                        name="apellidos">
+                        <span class="campoObligatorio">Este campo es obligatorio</span>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="telCel">Tel. cel.:</label>
+                        <input 
+                        type="text" 
+                        class="form-control"
+                        name="telCel">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-12 col-md-4">
+                        <label for="email">Email:</label>
+                        <input 
+                        type="email" 
+                        class="form-control"
+                        name="email">
+                        <span class="campoObligatorio">Este campo es obligatorio</span>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea 
+                        name="mensaje" 
+                        id="mensaje"
+                        class="form-control"
+                        rows="10"></textarea>
+                        <span class="campoObligatorio">Este campo es obligatorio</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <button 
+                    type="button" 
+                    class="btn btn-primary btnEnviarMensaje">Enviar</button>
+                </div>
+            </form>
+        </div>
+
     </main>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row contenedorContacto">
+                <ul class="contacto mt-5">
+                    <li>
+                        <img src="assets/img/whatsapp_fondo.png" alt="Telefono celular">
+                        <span>Tel.cel. 222-222-22-22</span>
+                    </li>
+                    <li>
+                        <img src="assets/img/email.png" alt="Email">
+                        <span>empresa@contacto.com.mx</span>
+                    </li>
+                    <li>
+                        <img src="assets/img/instagram.png" alt="Instagram">
+                        <span>asesoriafinacieradvc</span>
+                    </li>
+                    <li>
+                        <img src="assets/img/facebook.png" alt="Facebook">
+                        <span>asesoriafinacieradvc</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="row justify-content-center logoFooter">
+                <img src="assets/img/logo/logo_vertical_texto.svg" alt="Logo letras asesoriafinacieradvc">
+            </div>
+        </div>
+        <div class="terminosCondiciones">
+            <span>© eaasesoriafiscaldvc 2022</span>
+        </div>
+    </footer>
 
     <script src="assets/js/library/jquery/jquery.min.js"></script>
     <script src="assets/js/plugins/slick-1.8.1/slick/slick.js"></script>

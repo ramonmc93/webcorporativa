@@ -5,6 +5,14 @@ ul {
     text-align: center;   
     float: right;
     font-size: 17px;
+    margin-top: 9px;
+}
+
+.menu {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: #ed1d8f;
 }
 
 li {
@@ -13,8 +21,7 @@ li {
 }
 
 a {
-    width: 100%;
-    color: #fff;
+    color: #fff!important;
     padding: 10px;
 }
 
@@ -24,7 +31,7 @@ a:hover {
 }
 
 /* header */
-header {
+header, footer {
     background-color: var(--color-suc-a);
 }
 
@@ -113,6 +120,7 @@ main .contenedorTituloSeccion {
     position: absolute;
     left: 0;
     right: 0;
+    top: 70px;
 }
 
 .contenedorTituloSeccion p {
@@ -180,6 +188,10 @@ main .contenedorTituloSeccion {
 }
 
 /* Testimonios */
+.contenedorClientes {
+    height: 270px;
+    max-height: 270px;
+}
 
 .contenedorHistoriasClientes {
     transform-origin: 0 0;
@@ -263,4 +275,63 @@ main .contenedorTituloSeccion {
 .botonesCambioHistoriaCliente button:active {
     background: rgb(254,111,189);
     background: linear-gradient(185deg, rgba(254,111,189,1) 9%, rgba(255,182,85,1) 100%);   
+}
+
+#frmContactar {
+    width: 1000px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.btnEnviarMensaje {
+    background-color: var(--color-suc-c);
+    border-color: var(--color-suc-c);
+}
+
+.btnEnviarMensaje:is(:hover, :focus) {
+    background-color: var(--color-suc-a);
+    border-color: var(--color-suc-a);
+    box-shadow: 3px 3px 1px 1px rgba(254,111,189,1);
+}
+
+/* footer */
+footer {
+    height: 450px;
+    position: relative;
+}
+
+.contacto {
+    width: auto;
+    height: auto;
+    display: block;
+    color: #fff;
+}
+
+.contacto img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.contacto li {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.logoFooter img {
+    width: 200px;
+}
+
+.terminosCondiciones {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    bottom: 0;
+    text-align: center;
+    background-color: #FE6FBD;
+    font-size: 17px;
+    padding: 5px;
 }

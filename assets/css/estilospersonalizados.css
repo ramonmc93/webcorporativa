@@ -15,6 +15,9 @@ li {
 
 button {
     cursor: pointer;
+    outline: none!important;
+    /* box-shadow: none!important; */
+    /* border: 0; */
 }
 
 p, h2 {
@@ -660,6 +663,13 @@ label {
     margin-top: -20px;
     margin-left: 12px;
     position: relative;
+}
+
+.campoObligatorio {
+	font-size: 10px;
+	color: red;
+	margin-top: -2px;
+	display: block;
 }
 
 /* Cambios estilos bootstrap */

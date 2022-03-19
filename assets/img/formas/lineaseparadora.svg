@@ -1,3 +1,44 @@
-<svg width="3264" height="321" viewBox="0 0 3264 321" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 0H3264V197.687C3264 197.687 2691.8 -79.7667 1632 197.687C572.195 475.141 0 197.687 0 197.687V0Z" fill="#FF6D00"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="3268.2544"
+   height="205.92996"
+   viewBox="0 0 3268.2544 205.92996"
+   fill="none"
+   version="1.1"
+   id="svg1236"
+   sodipodi:docname="lineaseparadora.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1240" />
+  <sodipodi:namedview
+     id="namedview1238"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.23505235"
+     inkscape:cx="2061.243"
+     inkscape:cy="374.38469"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1236"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <path
+     d="M 4.2543715,0 H 3268.2544 v 104.09083 c 0,0 -610.4893,-77.498243 -1657.5262,51.05246 C 155.26659,300.71177 0,87.073341 0,87.073341 Z"
+     fill="#ff6d00"
+     id="path1234"
+     sodipodi:nodetypes="cccccc" />
 </svg>

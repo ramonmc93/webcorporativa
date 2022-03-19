@@ -1,12 +1,7 @@
 window.addEventListener("load", function() {
 
-    // $('.slider').slick({
-    //     dots: true,
-    //     infinite: true,
-    //     speed: 500,
-    //     fade: true,
-    //     cssEase: 'linear'
-    // });
+    // --- Mandar el scroll al final.
+    // $("html, body").animate({ scrollTop: (document.scrollingElement.offsetHeight ) }, "slow");
     
     let indexHistoriaClienteAnterior = 1;
     $(document).on("click", ".btnCambirHistori", function(evt){
@@ -23,7 +18,7 @@ window.addEventListener("load", function() {
             
             setTimeout(function(){
                 contenedorHistoriaCliente.addClass("contenedorHistoriasClientes-active");
-            }, 100);
+            }, 10);
     
             indexHistoriaClienteAnterior = idHistoriaCliente;
 

@@ -454,9 +454,14 @@ footer {
         width: auto;
     }
 
-    .contenedorHistoriasClientes-active, .contenedorImagenTestimonio img {
+    .contenedorHistoriasClientes-active {
         width: 100%;
         display: block!important;
+    }
+
+    .contenedorImagenTestimonio img {
+        width: 90%;
+        margin: 0px auto;
     }
 
     .contenedorImagenTestimonio div span {

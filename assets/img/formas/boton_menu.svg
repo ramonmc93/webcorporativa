@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35"
+   height="35"
+   viewBox="0 0 9.2604169 9.2604169"
+   version="1.1"
+   id="svg3514"
+   inkscape:export-filename="C:\xampp\htdocs\PROYECTOS_OTROS\asesoriafiscal\assets\img\whatsapp_fondo.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="boton_menu.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3516"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="11.313709"
+     inkscape:cx="28.416854"
+     inkscape:cy="23.776465"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="false"
+     showborder="true">
+    <sodipodi:guide
+       position="-2.7099612e-08,13.229164"
+       orientation="1,0"
+       id="guide4233" />
+    <sodipodi:guide
+       position="9.2614519,8.0926965"
+       orientation="0,-1"
+       id="guide4235" />
+    <sodipodi:guide
+       position="9.26145,1.1676017"
+       orientation="0,-1"
+       id="guide4237" />
+    <sodipodi:guide
+       position="9.2614504,9.2604139"
+       orientation="1,0"
+       id="guide4239" />
+    <sodipodi:guide
+       position="-2.7099612e-08,9.2604139"
+       orientation="0,-1"
+       id="guide4633" />
+    <sodipodi:guide
+       position="1.1049925,-0.00047245087"
+       orientation="0,-1"
+       id="guide4635" />
+    <sodipodi:guide
+       position="1.1676064,9.2604135"
+       orientation="1,0"
+       id="guide4827" />
+    <sodipodi:guide
+       position="8.0938455,9.2602991"
+       orientation="1,0"
+       id="guide4829" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3511" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-18.851841,-127.12151)">
+    <rect
+       style="fill:#666666;stroke-width:0.045414"
+       id="rect4151"
+       width="6.926239"
+       height="1.1677116"
+       x="20.019447"
+       y="128.28923" />
+    <rect
+       style="fill:#666666;stroke-width:0.045414"
+       id="rect4151-6"
+       width="6.926239"
+       height="1.1677116"
+       x="20.019447"
+       y="131.16786" />
+    <rect
+       style="fill:#666666;stroke-width:0.0454121"
+       id="rect4151-1"
+       width="6.926239"
+       height="1.1676062"
+       x="20.019447"
+       y="134.04672" />
+  </g>
+</svg>

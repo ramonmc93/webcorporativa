@@ -341,15 +341,52 @@ footer {
 /* Media querys */
 @media (max-width:412px) {
 
+    .btnMostrarMenuPrincipal {
+        width: 35px;
+        height: 35px;
+        background-image: url(../img/formas/boton_menu.svg);
+        background-size: cover;
+        background-color: #fff;
+        border-color: #fff;
+        margin: 12px;
+    }
+
+    .btnMostrarMenuPrincipal:is(:hover, :focus) {
+        background-color: #fff;
+        border-color: #fff;
+        box-shadow: none!important;
+    }
+
     .menu {
         width: 50%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
     }
 
     .menuPrincipal {
-        width: inherit;
+        width: 100%;
+        padding: 0;
         display: block;
         height: auto;
         float: left;
+    }
+
+    .menuPrincipal li {
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    li:hover, .item-activo {
+        padding-bottom: 0px;
+        border-bottom: 3px solid #fff;
+    }
+
+    .menuPrincipal li a {
+        display: block;
+        padding: 10px;
     }
 
     /* Servicios */ 

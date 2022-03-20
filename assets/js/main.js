@@ -34,4 +34,27 @@ window.addEventListener("load", function() {
         itemMenu.className = "item-activo";
     });
 
+    
+    // --- Menú desplegable
+    let estadoMenu = false;
+    $(document).on("click", ".btnMostrarMenuPrincipal, .menu", function(){
+        abrirCerrarMenu();
+    });
+
+    // $(document).on("click", "body", function(){
+    //     if ( estadoMenu ) {
+    //         abrirCerrarMenu();
+    //     }
+    // });
+
+    function abrirCerrarMenu() {
+        if ( !estadoMenu ) {
+            $(".menu").removeClass("d-none").addClass("d-block");
+            estadoMenu = true;
+        } else {
+            $(".menu").removeClass("d-block").addClass("d-none");
+            estadoMenu = false;
+        }
+    }
+
 });

@@ -358,7 +358,11 @@ footer {
 @media (max-width:637px) {
 
     .contenedorBotonMenu {
-        position: absolute;
+        position: fixed;
+        background: #ed1d8f;
+        left: 0;
+        right: 0;
+        z-index: 1;
     }
 
     .btnMostrarMenuPrincipal {

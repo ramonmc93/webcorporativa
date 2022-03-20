@@ -15,10 +15,12 @@
 </head>
 <body>
     <header>
-        <button
-        type="button"
-        class="btn btn-primary btnMostrarMenuPrincipal"></button>
-        <div class="menu d-none">
+        <div class="contenedorBotonMenu">
+            <button
+            type="button"
+            class="btn btn-primary btnMostrarMenuPrincipal"></button>
+        </div>
+        <div class="menu">
             <ul class="menuPrincipal">
                 <li>
                     <a href="#">Inicio</a>
@@ -292,57 +294,59 @@
                         fill="#FF6D00"/>
                     </svg>
                 </div>
-                <form id="frmContactar">
-                    <div class="row form-group">
-                        <div class="col-12 col-md-4">
-                            <label for="nombre">Nombre:</label>
-                            <input 
-                            type="text" 
-                            class="form-control"
-                            name="nombre">
-                            <span class="campoObligatorio">Este campo es obligatorio</span>
+                <div class="container">
+                    <form id="frmContactar">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <label for="nombre">Nombre:</label>
+                                <input 
+                                type="text" 
+                                class="form-control"
+                                name="nombre">
+                                <span class="campoObligatorio">Este campo es obligatorio</span>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <label for="apellidos">Apellidos:</label>
+                                <input 
+                                type="text" 
+                                class="form-control"
+                                name="apellidos">
+                                <span class="campoObligatorio">Este campo es obligatorio</span>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <label for="telCel">Tel. cel.:</label>
+                                <input 
+                                type="text" 
+                                class="form-control"
+                                name="telCel">
+                            </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <label for="apellidos">Apellidos:</label>
-                            <input 
-                            type="text" 
-                            class="form-control"
-                            name="apellidos">
-                            <span class="campoObligatorio">Este campo es obligatorio</span>
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <label for="email">Email:</label>
+                                <input 
+                                type="email" 
+                                class="form-control"
+                                name="email">
+                                <span class="campoObligatorio">Este campo es obligatorio</span>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea 
+                                name="mensaje" 
+                                id="mensaje"
+                                class="form-control"
+                                rows="10"></textarea>
+                                <span class="campoObligatorio">Este campo es obligatorio</span>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <label for="telCel">Tel. cel.:</label>
-                            <input 
-                            type="text" 
-                            class="form-control"
-                            name="telCel">
+                        <div class="d-flex justify-content-center mt-5">
+                            <button 
+                            type="button" 
+                            class="btn btn-primary btnEnviarMensaje">Enviar</button>
                         </div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-12 col-md-4">
-                            <label for="email">Email:</label>
-                            <input 
-                            type="email" 
-                            class="form-control"
-                            name="email">
-                            <span class="campoObligatorio">Este campo es obligatorio</span>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea 
-                            name="mensaje" 
-                            id="mensaje"
-                            class="form-control"
-                            rows="10"></textarea>
-                            <span class="campoObligatorio">Este campo es obligatorio</span>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center mt-5">
-                        <button 
-                        type="button" 
-                        class="btn btn-primary btnEnviarMensaje">Enviar</button>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
 

@@ -8,6 +8,10 @@ ul {
     margin-top: 9px;
 }
 
+.btnMostrarMenuPrincipal {
+    display: none;    
+}
+
 .menu {
     position: fixed;
     z-index: 2;
@@ -279,8 +283,6 @@ main .contenedorTituloSeccion {
 }
 
 #frmContactar {
-    width: 1000px;
-    margin: 0px auto;
     text-align: left;
 }
 
@@ -339,11 +341,16 @@ footer {
 
 
 /* Media querys */
-@media (max-width:412px) {
+@media (max-width:412px) or (max-width:637px) {
+
+    .contenedorBotonMenu {
+        position: absolute;
+    }
 
     .btnMostrarMenuPrincipal {
         width: 35px;
         height: 35px;
+        display: block;
         background-image: url(../img/formas/boton_menu.svg);
         background-size: cover;
         background-color: #fff;
@@ -359,6 +366,7 @@ footer {
 
     .menu {
         width: 50%;
+        display: none;
         position: fixed;
         left: 0;
         bottom: 0;
@@ -440,10 +448,6 @@ footer {
     .contenedorTituloSeccion h1 {
         font-size: 33px;
         top: 129px;
-    }
-
-    #frmContactar {
-        width: auto;
     }
     
 }

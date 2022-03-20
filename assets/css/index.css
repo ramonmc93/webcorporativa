@@ -341,7 +341,21 @@ footer {
 
 
 /* Media querys */
-@media (max-width:412px) or (max-width:637px) {
+@media (max-width:327px) {
+
+    .contenedorLogo {
+        display: flex;
+        justify-content: center;
+    }    
+
+    .contenedorLogo img {
+        width: 35%;
+        margin-left: initial;
+    }
+
+}
+
+@media (max-width:637px) {
 
     .contenedorBotonMenu {
         position: absolute;
@@ -432,7 +446,16 @@ footer {
         max-height: 100%;
     }
     
-    .contenedorHistoriasClientes-active {
+    .contenedorTestimonioCliente {
+        height: 305px;
+    }
+    
+    .contenedorHistoriasClientes-active > div {
+        width: auto;
+    }
+
+    .contenedorHistoriasClientes-active, .contenedorImagenTestimonio img {
+        width: 100%;
         display: block!important;
     }
 

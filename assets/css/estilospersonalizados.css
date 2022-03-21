@@ -5,6 +5,10 @@ body {
     font-family: "Oswald-Regular";
 }
 
+main {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none!important;
 }

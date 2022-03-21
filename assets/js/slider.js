@@ -27,10 +27,7 @@ function iniciarSliderImagenes( intervalo = 0 ) {
 
             }, 5000);
 
-            console.log(visibilidadPagina, intervaloSlider);
-
         } else {
-            console.log(visibilidadPagina, intervaloSlider);
             clearInterval(intervaloSlider);
         }
 
@@ -56,8 +53,6 @@ function empezarSlider( activar = true ) {
             if ( contadorImagenesMostradas > (totalImagenes-1) ) {
                 contadorImagenesMostradas = 0;
             }
-
-            console.log("Inicio principal");
             
         }
 

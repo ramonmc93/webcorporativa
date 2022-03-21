@@ -4,7 +4,12 @@ window.addEventListener("load", function() {
     // $("html, body").animate({ scrollTop: (document.scrollingElement.offsetHeight ) }, "slow");
     
     // --- Se inicializa el slider.
-    cambiarImagenSlider();
+    if ( document.visibilityState == "visible" ) {
+
+        let intervalo = empezarSlider();
+        iniciarSliderImagenes(intervalo);
+        
+    }
 
     // --- Cambio manual slider.
     let indexHistoriaClienteAnterior = 1;
@@ -13,13 +18,12 @@ window.addEventListener("load", function() {
         let idHistoriaCliente = evt.target.dataset.idHistoriaCliente;
         if ( indexHistoriaClienteAnterior != idHistoriaCliente ) {
         
-            cambiarImagenSlider( idHistoriaCliente, true );
+            iniciarSliderImagenes( idHistoriaCliente, true );
             indexHistoriaClienteAnterior = idHistoriaCliente;
 
         }
     
     });
-
 
     // --- Menú
     $(document).on("click", ".menuPrincipal li", function(){

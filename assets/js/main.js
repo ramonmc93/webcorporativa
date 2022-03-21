@@ -35,7 +35,7 @@ window.addEventListener("load", function() {
     
     // --- Menú desplegable
     let estadoMenu = false;
-    $(document).on("click", ".btnMostrarMenuPrincipal", function(){
+    $(document).on("click", ".btnMostrarMenuPrincipal, .contenedorMenu li", function(){
         abrirCerrarMenu();
     });
 
@@ -47,10 +47,10 @@ window.addEventListener("load", function() {
 
     function abrirCerrarMenu() {
         if ( !estadoMenu ) {
-            $(".menu").removeClass("d-none").addClass("d-block");
+            $(".contenedorMenu").removeClass("d-none").addClass("d-block");
             estadoMenu = true;
         } else {
-            $(".menu").removeClass("d-block").addClass("d-none");
+            $(".contenedorMenu").removeClass("d-block").addClass("d-none");
             estadoMenu = false;
         }
     }

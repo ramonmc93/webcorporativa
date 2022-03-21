@@ -12,7 +12,7 @@ ul {
     display: none;    
 }
 
-.menu {
+.contenedorMenu {
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -386,7 +386,7 @@ footer {
         box-shadow: none!important;
     }
 
-    .menu {
+    .contenedorMenu {
         width: 80%;
         display: none;
         position: fixed;

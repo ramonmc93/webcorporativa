@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
 
         let intervalo = empezarSlider();
         iniciarSliderImagenes(intervalo);
-        
+
     }
 
     // --- Cambio manual slider.
@@ -35,7 +35,7 @@ window.addEventListener("load", function() {
     
     // --- Menú desplegable
     let estadoMenu = false;
-    $(document).on("click", ".btnMostrarMenuPrincipal, .menu", function(){
+    $(document).on("click", ".btnMostrarMenuPrincipal", function(){
         abrirCerrarMenu();
     });
 

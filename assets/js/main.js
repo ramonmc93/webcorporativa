@@ -39,18 +39,12 @@ window.addEventListener("load", function() {
         abrirCerrarMenu();
     });
 
-    // $(document).on("click", "body", function(){
-    //     if ( estadoMenu ) {
-    //         abrirCerrarMenu();
-    //     }
-    // });
-
     function abrirCerrarMenu() {
         if ( !estadoMenu ) {
-            $(".contenedorMenu").removeClass("d-none").addClass("d-block");
+            $(".contenedorMenu").addClass("menu-activo");
             estadoMenu = true;
         } else {
-            $(".contenedorMenu").removeClass("d-block").addClass("d-none");
+            $(".contenedorMenu").removeClass("menu-activo");
             estadoMenu = false;
         }
     }

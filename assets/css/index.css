@@ -395,6 +395,10 @@ footer {
         top: 0;
     }
 
+    .menu-activo {
+        display: block!important;
+    }
+
     .menuPrincipal {
         width: 100%;
         padding: 0;
